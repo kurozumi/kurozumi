@@ -1,6 +1,6 @@
 #### Hi there 👋
 
-EC-CUBE plug-in developer
+EC-CUBE and Symfony contributor
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kurozumi)](https://github.com/anuraghazra/github-readme-stats)
 
