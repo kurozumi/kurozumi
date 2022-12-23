@@ -4,6 +4,8 @@ EC-CUBE and Symfony contributor
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kurozumi)](https://github.com/anuraghazra/github-readme-stats)
 
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
 
 <!--
 **kurozumi/kurozumi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
