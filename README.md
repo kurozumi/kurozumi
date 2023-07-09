@@ -5,8 +5,8 @@ EC-CUBE and Symfony contributor
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=kurozumi)](https://github.com/anuraghazra/github-readme-stats)
 
 <!--START_SECTION:lapras-card-->
-<a href="https://lapras.com/public/EUJNLVZ" target="_blank" rel="noopener noreferrer"><img  alt="EUJNLVZのLAPRASでのスコアは次の通りです: エンジニアリング: 3.65 / 5.0, ビジネス: 2.85 / 5.0, インフルエンス: 3.38 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.65&b=2.85&i=3.38&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a>  
-Last Updated on 7/8/2023, 12:16:05 AM
+<p ><a href="https://lapras.com/public/EUJNLVZ" target="_blank" rel="noopener noreferrer"><img alt="EUJNLVZのLAPRASでのスコアは次の通りです: エンジニアリング: 3.65 / 5.0, ビジネス: 2.85 / 5.0, インフルエンス: 3.38 / 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.65&b=2.85&i=3.38&b1=%23020E27&b2=%230E5593&i1=%23030E21&i2=%231688BF&l=ja" width="400" ></a>  
+Last Updated on 7/9/2023, 12:18:02 AM</p>
 <!--END_SECTION:lapras-card-->
 
 <!--
