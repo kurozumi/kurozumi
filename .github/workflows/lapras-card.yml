@@ -1,18 +1,18 @@
-name: LAPRAS Card
+# name: LAPRAS Card
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: "0 0 * * *"
 
-jobs:
-  update-card:
-    name: LAPRAS Card
-    runs-on: ubuntu-latest
-    steps:
-      - uses: kawamataryo/lapras-card-readme@main
-        with:
-          SHARE_ID: "EUJNLVZ"
+# jobs:
+#   update-card:
+#     name: LAPRAS Card
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: kawamataryo/lapras-card-readme@main
+#         with:
+#           SHARE_ID: "EUJNLVZ"
           # 以下オプション
           # https://lapras-card-generator.vercel.app でカスタマイズしたデザインを設定可能
           # ICON_FIRST: "#030E21"
