@@ -35,6 +35,10 @@ EC-CUBEプラグインの開発・メンテナンスを継続するため、ス�
 
 **[GitHub Sponsors](https://github.com/sponsors/kurozumi)**
 
+Zennの記事が役に立ったら、バッジを贈っていただけると励みになります。
+
+**[Zenn](https://zenn.dev/kurozumi)**
+
 ---
 
 ## About (English)
