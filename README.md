@@ -16,6 +16,12 @@ EC-CUBE プラグイン開発者として、日本最大級のECオープンソ�
 - **Symfony** - フレームワークへのコントリビュート
 - **PHP** - バックエンド開発
 
+## Work
+
+**EC-CUBEのカスタマイズ・プラグイン開発のご依頼を承っています。**
+
+お気軽にお問い合わせください。
+
 ## Links
 
 - **Blog**: [zenn.dev/kurozumi](https://zenn.dev/kurozumi)
