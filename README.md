@@ -18,7 +18,7 @@ EC-CUBE プラグイン開発者として、日本最大級のECオープンソ�
 
 ## Links
 
-- **Blog**: [a-zumi.net](https://a-zumi.net)
+- **Blog**: [zenn.dev/kurozumi](https://zenn.dev/kurozumi)
 - **Contact**: info@a-zumi.net
 
 ---
