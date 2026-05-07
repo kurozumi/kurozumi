@@ -18,9 +18,14 @@ EC-CUBEプラグイン開発・ECサイト構築のスペシャリストとし�
 - **[Zenn](https://zenn.dev/kurozumi)** にてEC-CUBE・Symfonyの技術記事・書籍を執筆
 
 ### 著作
-| タイトル | 概要 |
-|----------|------|
-| **[さくらVPS + EC-CUBE 4.3 本番環境構築ガイド](https://zenn.dev/kurozumi/books/eccube-sakura-vps-deploy)** | VPS契約からEC-CUBEの本番デプロイまでを解説。Claude Codeスキルで環境構築を1コマンド自動化 |
+
+> 📘 **Amazon Kindle 出版中！**
+> **[EC-CUBEではじめるBtoB ECサイト構築ガイド](https://amzn.asia/d/0czU3EGs)** — 会員グループ管理プラグインで法人審査・卸価格・支払い制限・配送制限を実現する方法を解説。BtoB EC構築に必要な知識を1冊に凝縮。
+
+| タイトル | 媒体 | 概要 |
+|----------|------|------|
+| **[EC-CUBEではじめるBtoB ECサイト構築ガイド](https://amzn.asia/d/0czU3EGs)** | Amazon Kindle | 会員グループ管理プラグインで法人審査・卸価格・支払い制限・配送制限を実現する |
+| **[さくらVPS + EC-CUBE 4.3 本番環境構築ガイド](https://zenn.dev/kurozumi/books/eccube-sakura-vps-deploy)** | Zenn | VPS契約からEC-CUBEの本番デプロイまでを解説。Claude Codeスキルで環境構築を1コマンド自動化 |
 
 ### 得意領域
 
