@@ -41,6 +41,31 @@ EC-CUBEプラグイン開発・ECサイト構築のスペシャリストとし�
 - **インフラ**: Docker / Linux / AWS（基礎レベル）
 - **ツール**: Git / GitHub / Composer / PHPUnit
 
+## 個人開発 / OSS Projects
+
+### [EC-CUBE MCP Server](https://github.com/kurozumi/eccube-mcp-server)
+
+EC-CUBE 4向けの **MCP（Model Context Protocol）サーバー**。ClaudeなどのAIアシスタントから自然言語でEC-CUBEの商品・在庫・売上データを操作できます。
+
+**できること**
+
+| ツール | 機能 |
+|--------|------|
+| `search_products` | 商品名・商品コードで検索、価格・在庫情報取得 |
+| `check_stock` | 在庫数の確認 |
+| `update_stock` | 在庫数の更新（在庫無制限設定も可） |
+| `analyze_sales` | 指定期間の売上を日次・月次で集計 |
+| `get_sales_ranking` | 売れ筋商品のランキング表示 |
+
+**技術スタック:** Node.js / MCP TypeScript SDK / EC-CUBE GraphQL API / OAuth 2.0
+
+- Claude Desktop・Claude Code 両対応
+- GUIランチャー付きでコマンド不要でセットアップ可能（Mac / Windows）
+- 本番・ステージングなど複数のEC-CUBEを使い分け可能
+- 解説記事: [EC-CUBEとClaudeを連携させるMCPサーバーをNode.jsで作った](https://zenn.dev/kurozumi/articles/eccube-mcp-server-nodejs)
+
+---
+
 ## Work
 
 **EC-CUBEのカスタマイズ・プラグイン開発のご依頼を承っています。**
