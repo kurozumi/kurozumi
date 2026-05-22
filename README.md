@@ -43,26 +43,17 @@ EC-CUBEプラグイン開発・ECサイト構築のスペシャリストとし�
 
 ## 個人開発 / OSS Projects
 
-### [EC-CUBE MCP Server](https://github.com/kurozumi/eccube-mcp-server)
+### [コエトバ](https://koetoba.vercel.app/)
 
-EC-CUBE 4向けの **MCP（Model Context Protocol）サーバー**。ClaudeなどのAIアシスタントから自然言語でEC-CUBEの商品・在庫・売上データを操作できます。
+**声で、つながる匿名音声掲示板**。会員登録不要・匿名で誰でもすぐに音声配信を始められるプラットフォームです。
 
-**できること**
+**主な機能**
 
-| ツール | 機能 |
-|--------|------|
-| `search_products` | 商品名・商品コードで検索、価格・在庫情報取得 |
-| `check_stock` | 在庫数の確認 |
-| `update_stock` | 在庫数の更新（在庫無制限設定も可） |
-| `analyze_sales` | 指定期間の売上を日次・月次で集計 |
-| `get_sales_ranking` | 売れ筋商品のランキング表示 |
+- 匿名音声配信（ライブ配信対応）
+- 会員登録不要・ゲスト参加可能
+- リアルタイムで声でつながるコミュニティ機能
 
-**技術スタック:** Node.js / MCP TypeScript SDK / EC-CUBE GraphQL API / OAuth 2.0
-
-- Claude Desktop・Claude Code 両対応
-- GUIランチャー付きでコマンド不要でセットアップ可能（Mac / Windows）
-- 本番・ステージングなど複数のEC-CUBEを使い分け可能
-- 解説記事: [EC-CUBEとClaudeを連携させるMCPサーバーをNode.jsで作った](https://zenn.dev/kurozumi/articles/eccube-mcp-server-nodejs)
+**技術スタック:** Next.js 16 / React 19 / TypeScript / LiveKit / Supabase / Vercel
 
 ---
 
