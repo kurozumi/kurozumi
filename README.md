@@ -41,22 +41,6 @@ EC-CUBEプラグイン開発・ECサイト構築のスペシャリストとし�
 - **インフラ**: Docker / Linux / AWS（基礎レベル）
 - **ツール**: Git / GitHub / Composer / PHPUnit
 
-## 個人開発 / OSS Projects
-
-### [コエトバ](https://koetoba.vercel.app/)
-
-**声で、つながる匿名音声掲示板**。会員登録不要・匿名で誰でもすぐに音声配信を始められるプラットフォームです。
-
-**主な機能**
-
-- 匿名音声配信（ライブ配信対応）
-- 会員登録不要・ゲスト参加可能
-- リアルタイムで声でつながるコミュニティ機能
-
-**技術スタック:** Next.js 16 / React 19 / TypeScript / LiveKit / Supabase / Vercel
-
----
-
 ## Work
 
 **EC-CUBEのカスタマイズ・プラグイン開発のご依頼を承っています。**
