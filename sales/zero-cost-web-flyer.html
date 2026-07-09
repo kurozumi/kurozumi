@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>初期費用0円のWEBシステム開発｜営業資料</title>
+<style>
+  :root {
+    --ink: #1c2733;
+    --ink-soft: #4a5a6a;
+    --ground: #fbfaf7;
+    --card: #ffffff;
+    --line: #dde3e8;
+    --navy: #1e3a5f;
+    --navy-deep: #16293f;
+    --accent: #c8401f;
+    --accent-soft: #faeae4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #e8ecf0;
+      --ink-soft: #a7b4c0;
+      --ground: #141a21;
+      --card: #1c242e;
+      --line: #33404d;
+      --navy: #8fb4dd;
+      --navy-deep: #0f1822;
+      --accent: #f07a55;
+      --accent-soft: #3a251d;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #e8ecf0;
+    --ink-soft: #a7b4c0;
+    --ground: #141a21;
+    --card: #1c242e;
+    --line: #33404d;
+    --navy: #8fb4dd;
+    --navy-deep: #0f1822;
+    --accent: #f07a55;
+    --accent-soft: #3a251d;
+  }
+  :root[data-theme="light"] {
+    --ink: #1c2733;
+    --ink-soft: #4a5a6a;
+    --ground: #fbfaf7;
+    --card: #ffffff;
+    --line: #dde3e8;
+    --navy: #1e3a5f;
+    --navy-deep: #16293f;
+    --accent: #c8401f;
+    --accent-soft: #faeae4;
+  }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic Medium", "Yu Gothic", "Noto Sans JP", sans-serif;
+    line-height: 1.75;
+    font-size: 15px;
+  }
+  .sheet {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 40px 28px 56px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    font-weight: 600;
+    color: var(--navy);
+    border: 1px solid currentColor;
+    padding: 4px 14px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: clamp(26px, 5vw, 38px);
+    line-height: 1.35;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-wrap: balance;
+    margin: 0 0 10px;
+  }
+  h1 .zero {
+    color: var(--accent);
+    font-size: 1.35em;
+    font-variant-numeric: tabular-nums;
+  }
+  .lede {
+    font-size: 16px;
+    color: var(--ink-soft);
+    max-width: 38em;
+    margin: 0 0 8px;
+  }
+
+  section { margin-top: 40px; }
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--navy);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 16px;
+  }
+  h2::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--line);
+  }
+
+  .why {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--navy);
+    padding: 18px 22px;
+    border-radius: 3px;
+  }
+  .why p { margin: 0; }
+  .why p + p { margin-top: 10px; }
+  .why strong { color: var(--navy); }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  @media (max-width: 560px) { .steps { grid-template-columns: 1fr; } }
+  .step {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 16px 18px;
+  }
+  .step .num {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .step h3 { margin: 0 0 6px; font-size: 15px; font-weight: 700; }
+  .step p { margin: 0; font-size: 13px; color: var(--ink-soft); }
+  .step .fee {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 999px;
+  }
+  .fee.free { background: var(--accent-soft); color: var(--accent); }
+  .fee.share { background: var(--navy-deep); color: #fff; }
+  :root[data-theme="dark"] .fee.share, .dark-share { color: #fff; }
+
+  .examples {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  @media (max-width: 560px) { .examples { grid-template-columns: 1fr; } }
+  .examples li {
+    padding-left: 1.2em;
+    position: relative;
+  }
+  .examples li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 8px;
+    height: 8px;
+    background: var(--navy);
+    border-radius: 1px;
+  }
+  .examples li b { display: block; }
+  .examples li span { font-size: 13px; color: var(--ink-soft); }
+
+  .trust { padding: 0; margin: 0; list-style: none; }
+  .trust li {
+    display: flex;
+    gap: 14px;
+    padding: 10px 0;
+    border-bottom: 1px dashed var(--line);
+  }
+  .trust li:last-child { border-bottom: none; }
+  .trust .label {
+    flex: 0 0 9em;
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 13px;
+    padding-top: 2px;
+  }
+  .trust .body { flex: 1; font-size: 14px; }
+
+  .contact {
+    margin-top: 44px;
+    background: var(--navy-deep);
+    color: #eef3f8;
+    border-radius: 4px;
+    padding: 26px 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 40px;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .contact .msg { font-size: 16px; font-weight: 700; margin: 0; }
+  .contact .sub { font-size: 13px; color: #b8c6d4; margin: 4px 0 0; }
+  .contact address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.9;
+  }
+  .contact address b { font-size: 16px; }
+  .contact a { color: #fff; text-decoration-color: #6c86a0; }
+
+  @media print {
+    body { background: #fff; font-size: 13px; }
+    .sheet { padding: 0; max-width: none; }
+    section { margin-top: 22px; }
+    .contact { background: #16293f !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<div class="sheet">
+  <header>
+    <span class="eyebrow">WEBシステム開発のご案内</span>
+    <h1>WEBシステムを<br>初期費用 <span class="zero">0円</span> でお作りします</h1>
+    <p class="lede">開発費はいただきません。システムが動き出してからの月々の運用費と、売上の一部だけが対価です。</p>
+  </header>
+
+  <section>
+    <h2>なぜ0円でできるのか</h2>
+    <div class="why">
+      <p>これまでWEBシステムの開発には、数十万円から数百万円の初期費用がかかるのが普通でした。開発に人手と時間がかかっていたからです。</p>
+      <p>私は<strong>AIを活用した開発手法</strong>で、この開発コストを大幅に下げることに成功しました。だから初期費用をいただかなくても、事業として成り立ちます。浮いたコストを、お客様の「まず始めてみる」に回してください。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>仕組み（3ステップ）</h2>
+    <div class="steps">
+      <div class="step">
+        <span class="num">STEP 1</span>
+        <h3>ご相談</h3>
+        <p>今の商売の困りごとを伺い、システムで解決できるかを一緒に考えます。</p>
+        <span class="fee free">無料</span>
+      </div>
+      <div class="step">
+        <span class="num">STEP 2</span>
+        <h3>開発</h3>
+        <p>要件の整理から実装、公開まですべて私が行います。開発費は請求しません。</p>
+        <span class="fee free">無料</span>
+      </div>
+      <div class="step">
+        <span class="num">STEP 3</span>
+        <h3>運用開始</h3>
+        <p>システムが動き出してから、月々の運用費と売上の一部をいただきます。</p>
+        <span class="fee share">運用費＋売上の一部</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>こんなものが作れます</h2>
+    <ul class="examples">
+      <li><b>ネットショップ</b><span>商品をインターネットで販売。決済や受注管理もまとめて</span></li>
+      <li><b>予約受付システム</b><span>電話対応を減らし、24時間ネットで予約を受け付け</span></li>
+      <li><b>顧客・在庫の管理</b><span>紙やエクセルの台帳を、誰でも使える仕組みに</span></li>
+      <li><b>業務の自動化</b><span>毎日の繰り返し作業（転記、集計、通知）を自動に</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>私について</h2>
+    <ul class="trust">
+      <li><span class="label">経験</span><span class="body">ECサイト（ネットショップ）システムの開発歴10年以上。国産ECシステム「EC-CUBE」の公式開発にも参加しています。</span></li>
+      <li><span class="label">取引実績</span><span class="body">伊藤忠商事、パナソニック、アイリスオーヤマなどの案件に携わってきました。</span></li>
+      <li><span class="label">セキュリティ</span><span class="body">EC-CUBE公式のセキュリティ脆弱性発見プログラム（2022年）で3位に入賞。安全なシステム作りが得意です。</span></li>
+      <li><span class="label">成果への責任</span><span class="body">報酬が売上に連動するので、作って終わりにはしません。売上が伸びる改善を続けることが、私自身の利益になります。</span></li>
+    </ul>
+  </section>
+
+  <div class="contact">
+    <div>
+      <p class="msg">まずは困りごとを聞かせてください。</p>
+      <p class="sub">「これはシステムでどうにかなるのか？」という段階のご相談で構いません。</p>
+    </div>
+    <address>
+      <b>Akira Kurozumi</b><br>
+      メール：<a href="mailto:info@a-zumi.net">info@a-zumi.net</a><br>
+      技術ブログ：<a href="https://zenn.dev/kurozumi">zenn.dev/kurozumi</a>
+    </address>
+  </div>
+</div>
+</body>
+</html>
