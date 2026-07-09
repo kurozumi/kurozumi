@@ -45,6 +45,14 @@ EC-CUBEプラグイン開発・ECサイト構築のスペシャリストとし�
 
 **EC-CUBEのカスタマイズ・プラグイン開発のご依頼を承っています。**
 
+### 初期費用0円のWEBシステム開発（成果報酬型）
+
+最近は、AIを活用した開発手法で開発コストを大きく下げ、**WEBシステムを初期費用0円で開発する**取り組みを始めました。いただくのは月々の運用費と、システムが生んだ売上の一部だけです。
+
+- **開発費は無料**。ネットショップ、予約受付、業務の自動化など、商売に必要なシステムを負担なしで作れます
+- 対価は**運用費と売上の一部**。システムが成果を出して初めてこちらの収益になるので、作って終わりにはしません
+- システム化したいけれど、まとまった投資は難しい。そんな事業者の方はお気軽にご相談ください
+
 ### 対応可能な案件
 
 - EC-CUBEプラグインのスクラッチ開発
@@ -89,4 +97,4 @@ Zennの記事が役に立ったら、バッジを贈っていただけると励�
 
 ## About (English)
 
-EC-CUBE & Symfony expert based in Tokyo. 10+ years of experience in EC site development, plugin creation, and open-source contribution. Published 190+ plugins on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Past clients include Itochu Corporation, Panasonic, and Iris Ohyama. Available for remote contract work nationwide.
+EC-CUBE & Symfony expert based in Tokyo. 10+ years of experience in EC site development, plugin creation, and open-source contribution. Published 190+ plugins on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Past clients include Itochu Corporation, Panasonic, and Iris Ohyama. Available for remote contract work nationwide. Currently offering zero-upfront-cost web system development powered by AI-driven coding, under a revenue-share model based on operation fees and a portion of sales.
