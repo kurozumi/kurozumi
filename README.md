@@ -1,103 +1,82 @@
 # Akira Kurozumi
 
-**EC-CUBE & Symfony エキスパート** | Tokyo, Japan
+**EC-CUBEプラグイン開発・ECサイトカスタマイズ** | フルリモート・全国対応
+
+EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプラグイン**を販売し、**伊藤忠商事・パナソニック・アイリスオーヤマ**などの案件に携わってきました。
+
+📩 **ご相談・お見積りは無料です** → info@a-zumi.net
 
 ---
 
-## About
+## こんなご依頼を承っています
 
-EC-CUBEプラグイン開発・ECサイト構築のスペシャリストとして、**10年以上**にわたりECシステムの開発・運用に携わっています。
+| ご依頼 | 内容 |
+|--------|------|
+| **プラグインのスクラッチ開発** | 「この機能が標準にない」を1本のプラグインで解決。既存プラグインに手を入れず、バージョンアップに耐える作りにします |
+| **既存サイトのカスタマイズ・機能追加** | 要件の整理から実装・リリースまで通して担当します |
+| **バージョンアップ対応** | EC-CUBE 2系・4系からの移行、自社プラグインの4.3対応 |
+| **BtoB EC（卸・法人向け）の構築** | 法人審査、卸価格、支払い・配送制限。Kindleで1冊書いた領域です |
+| **コードレビュー・技術顧問** | 社内にEC-CUBEが分かる人がいない、という体制の補強 |
 
-### 経歴・実績
+## 選んでいただける理由
 
-- **2012年〜** GitHubで活動開始。現在**195以上のリポジトリ**・**430以上のGist**を公開
-- **EC-CUBEコアコントリビューター** — バグ修正・機能追加・ドキュメント整備に継続的に貢献
-- **[EC-CUBE バグバウンティ2022](https://www.ec-cube.net/lp/ver/42/bugbounty2022/) 3位入賞**（2022年9月）— EC-CUBEが公式に開催したセキュリティ脆弱性報告プログラムにて入賞
-- **Symfonyコントリビューター** — PHPフレームワークのエコシステムにも貢献
-- **[EC-CUBEオーナーズストア](https://www.ec-cube.net/products/list.php?partner_id=1399)** にて**190以上のプラグイン**を開発・販売
-- **[Zenn](https://zenn.dev/kurozumi)** にてEC-CUBE・Symfonyの技術記事・書籍を執筆
+- **EC-CUBE本体のコントリビューター**です。バグに当たったとき、回避策で逃げずに原因まで追えます。必要なら本体への修正提案までやります
+- **[EC-CUBE バグバウンティ2022](https://www.ec-cube.net/lp/ver/42/bugbounty2022/) 3位入賞**。決済や個人情報を扱う改修でも、脆弱性を作り込まない前提で書きます
+- **190以上のプラグインを販売・保守**しています。作って納めて終わり、ではなく、EC-CUBEのバージョンが上がった後まで面倒を見てきた経験があります
+- **Symfonyにも貢献**しています。EC-CUBE 4系の土台であるSymfonyの作法から外れない実装をします
+- **窓口は私一人**。営業とエンジニアの伝言ゲームがないので、仕様の相談がそのまま実装に届きます
 
-### 著作
+## 著作・発信
 
-> 📘 **Amazon Kindle 出版中！**
-> **[EC-CUBEではじめるBtoB ECサイト構築ガイド](https://amzn.asia/d/0czU3EGs)** — 会員グループ管理プラグインで法人審査・卸価格・支払い制限・配送制限を実現する方法を解説。BtoB EC構築に必要な知識を1冊に凝縮。
+| タイトル | 媒体 |
+|----------|------|
+| [EC-CUBEではじめるBtoB ECサイト構築ガイド](https://amzn.asia/d/0czU3EGs) | Amazon Kindle |
+| [さくらVPS + EC-CUBE 4.3 本番環境構築ガイド](https://zenn.dev/kurozumi/books/eccube-sakura-vps-deploy) | Zenn |
 
-| タイトル | 媒体 | 概要 |
-|----------|------|------|
-| **[EC-CUBEではじめるBtoB ECサイト構築ガイド](https://amzn.asia/d/0czU3EGs)** | Amazon Kindle | 会員グループ管理プラグインで法人審査・卸価格・支払い制限・配送制限を実現する |
-| **[さくらVPS + EC-CUBE 4.3 本番環境構築ガイド](https://zenn.dev/kurozumi/books/eccube-sakura-vps-deploy)** | Zenn | VPS契約からEC-CUBEの本番デプロイまでを解説。Claude Codeスキルで環境構築を1コマンド自動化 |
+技術記事は [Zenn](https://zenn.dev/kurozumi) に書いています。
 
-### 得意領域
-
-| 領域 | 詳細 |
-|------|------|
-| **EC-CUBEプラグイン開発** | 新規プラグイン設計・開発、既存プラグインのバージョンアップ対応 |
-| **ECサイトカスタマイズ** | 要件定義〜実装〜リリースまで一貫対応 |
-
-### 技術スタック
+## 技術スタック
 
 - **バックエンド**: PHP 8.x / Symfony 6.x / EC-CUBE 4.x / Doctrine ORM
 - **フロントエンド**: Twig / JavaScript / CSS
-- **インフラ**: Docker / Linux / AWS（基礎レベル）
-- **ツール**: Git / GitHub / Composer / PHPUnit
+- **インフラ**: Docker / Linux / さくらVPS / AWS（基礎レベル）
+- **ツール**: Git / GitHub / Composer / PHPUnit / Claude Code
 
-## Work
+---
 
-**EC-CUBEのカスタマイズ・プラグイン開発のご依頼を承っています。**
+## 初期費用0円のWEBシステム開発（成果報酬型）
 
-### 初期費用0円のWEBシステム開発（成果報酬型）
+AIを使った開発で工数を圧縮できるようになったので、**WEBシステムを初期費用0円で開発する**取り組みを始めました。いただくのは月々の運用費と、システムが生んだ売上の一部だけです。
 
-最近は、AIを活用した開発手法で開発コストを大きく下げ、**WEBシステムを初期費用0円で開発する**取り組みを始めました。いただくのは月々の運用費と、システムが生んだ売上の一部だけです。
-
-- **開発費は無料**。予約受付、顧客・在庫の管理、業務の自動化など、商売に必要なシステムを負担なしで作れます
-- 対価は**運用費と売上の一部**。システムが成果を出して初めてこちらの収益になるので、作って終わりにはしません
-- システム化したいけれど、まとまった投資は難しい。そんな事業者の方はお気軽にご相談ください
+- **開発費は無料**。予約受付、顧客・在庫の管理、業務の自動化など、商売に必要なシステムを初期投資なしで作れます
+- 対価は**運用費と売上の一部**。システムが成果を出して初めて私の収益になるので、作って終わりにはしません
+- システム化したいが、まとまった投資は難しい。そういう事業者の方はご相談ください
 
 > ※ EC-CUBEを使った構築・カスタマイズは本サービスの対象外です（従来どおり業務委託にて承ります）。
 > ※ EC-CUBEに限らず、ご相談内容によってはお引き受けできない場合があります。
 
-### 対応可能な案件
-
-- EC-CUBEプラグインのスクラッチ開発
-- 既存EC-CUBEサイトのカスタマイズ・機能追加
-- EC-CUBEに関するコードレビュー・技術顧問
-
-### 稼働について
-
-- **稼働形態**: 業務委託（リモート）
-- **対応エリア**: 全国（フルリモート対応可）
-
-お気軽にお問い合わせください。
-
-## Links
-
-- **Blog**: [zenn.dev/kurozumi](https://zenn.dev/kurozumi)
-- **Contact**: info@a-zumi.net
-
 ---
+
+## お問い合わせ
+
+要件が固まっていない段階でも構いません。「こういうことをやりたい」だけいただければ、実現方法と概算をお返しします。
+
+- **メール**: info@a-zumi.net
+- **稼働形態**: 業務委託（フルリモート）
+- **対応エリア**: 全国
 
 ## Support
 
-EC-CUBEプラグインの開発・メンテナンスを継続するため、スポンサーシップをお願いしています。
+EC-CUBEプラグインの開発・メンテナンスを続けるため、スポンサーを募っています → **[GitHub Sponsors](https://github.com/sponsors/kurozumi)**
 
-**[GitHub Sponsors](https://github.com/sponsors/kurozumi)**
-
-Zennの記事が役に立ったら、バッジを贈っていただけると励みになります。
-
-**[Zenn](https://zenn.dev/kurozumi)**
-
----
-
-## AI-Driven Development
-
-[![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-6B46C1?logo=anthropic&logoColor=white)](https://claude.ai/code)
-
-このプロジェクトは **[Claude Code](https://claude.ai/code)** を活用したAI駆動開発で構築・運用しています。
-
-> *AI と共に、より速く・より高品質なコードを。*
+Zennの記事が役に立ったら、バッジをいただけると励みになります → **[Zenn](https://zenn.dev/kurozumi)**
 
 ---
 
 ## About (English)
 
-EC-CUBE & Symfony expert based in Tokyo. 10+ years of experience in EC site development, plugin creation, and open-source contribution. Published 190+ plugins on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Past clients include Itochu Corporation, Panasonic, and Iris Ohyama. Available for remote contract work nationwide. Currently offering zero-upfront-cost web system development powered by AI-driven coding, under a revenue-share model based on operation fees and a portion of sales.
+EC-CUBE and Symfony developer based in Tokyo, with 10+ years of experience in EC site development and plugin engineering. Contributor to EC-CUBE core and Symfony. 190+ plugins published on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Past clients include Itochu Corporation, Panasonic, and Iris Ohyama. Available for remote contract work nationwide.
+
+Also offering zero-upfront-cost web system development powered by AI-assisted coding, under a revenue-share model (monthly operation fee plus a portion of sales).
+
+📩 info@a-zumi.net
