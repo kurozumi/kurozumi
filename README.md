@@ -2,7 +2,7 @@
 
 **EC-CUBEプラグイン開発・ECサイトカスタマイズ** | フルリモート・全国対応
 
-EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプラグイン**を販売し、**伊藤忠商事・パナソニック・アイリスオーヤマ**などの案件に携わってきました。
+EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプラグイン**を開発・販売し、EC-CUBE本体のコントリビューターとしても活動しています。
 
 📩 **ご相談・お見積りは無料です** → info@a-zumi.net
 
@@ -75,7 +75,7 @@ Zennの記事が役に立ったら、バッジをいただけると励みにな�
 
 ## About (English)
 
-EC-CUBE and Symfony developer based in Tokyo, with 10+ years of experience in EC site development and plugin engineering. Contributor to EC-CUBE core and Symfony. 190+ plugins published on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Past clients include Itochu Corporation, Panasonic, and Iris Ohyama. Available for remote contract work nationwide.
+EC-CUBE and Symfony developer based in Tokyo, with 10+ years of experience in EC site development and plugin engineering. Contributor to EC-CUBE core and Symfony. 190+ plugins published on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Available for remote contract work nationwide.
 
 Also offering zero-upfront-cost web system development powered by AI-assisted coding, under a revenue-share model (monthly operation fee plus a portion of sales).
 
