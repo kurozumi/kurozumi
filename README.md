@@ -32,11 +32,8 @@ EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプ
 
 | 公開物 | 何の役に立つか |
 |--------|----------------|
-| [eccube-upgrade-mcp](https://github.com/kurozumi/eccube-upgrade-mcp) | EC-CUBEのメジャーバージョンアップを補助するMCPサーバー。移行の見落としを機械的に洗い出します |
 | [eccube-docker](https://github.com/kurozumi/eccube-docker) | VPSでもAWSでも同じ手順でEC-CUBE 4をインストール〜公開できるDocker環境。環境差分による「動かない」をなくします |
 | [eccube-plugin-test](https://github.com/kurozumi/eccube-plugin-test) / [eccube-plugin-phpstan](https://github.com/kurozumi/eccube-plugin-phpstan) | プラグインのテスト・静的解析をGitHub Actionsで自動化 |
-| [会員ランク管理アドオン](https://github.com/kurozumi/eccube-plugin-customer-group-rank) | 購入金額・回数に応じて会員グループを自動で切り替える。グループ別の送料無料条件つき |
-| [ChatGPT for EC-CUBE 4.3](https://github.com/kurozumi/eccube-plugin-chatgpt) | 管理画面から商品説明や新着情報の文章を生成。商品登録の手間を削ります |
 
 ## 著作・発信
 
