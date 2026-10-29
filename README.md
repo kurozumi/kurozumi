@@ -16,6 +16,7 @@ EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプ
 | **既存サイトのカスタマイズ・機能追加** | 要件の整理から実装・リリースまで通して担当します |
 | **バージョンアップ対応** | EC-CUBE 2系・4系からの移行、自社プラグインの4.3対応 |
 | **BtoB EC（卸・法人向け）の構築** | 法人審査、卸価格、支払い・配送制限。Kindleで1冊書いた領域です |
+| **Web API・外部システム連携** | 基幹システムやアプリとEC-CUBEをつなぐ。管理画面からWeb API用トークンを発行するプラグインを自作しています |
 | **コードレビュー・技術顧問** | 社内にEC-CUBEが分かる人がいない、という体制の補強 |
 
 ## 選んでいただける理由
@@ -24,7 +25,18 @@ EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプ
 - **[EC-CUBE バグバウンティ2022](https://www.ec-cube.net/lp/ver/42/bugbounty2022/) 3位入賞**。EC-CUBE本体の脆弱性を探して報告した経験があるので、会員情報や管理画面まわりの改修でも、穴を作り込まない前提で書きます
 - **190以上のプラグインを販売・保守**しています。作って納めて終わり、ではなく、EC-CUBEのバージョンが上がった後まで面倒を見てきた経験があります
 - **Symfonyにも貢献**しています。EC-CUBE 4系の土台であるSymfonyの作法から外れない実装をします
+- **テストと静的解析を回す仕組みを自分で作っています**。プラグインを有効にしたまま本体のテストを走らせるGitHub Actions、PHPStanで解析するActionを公開済み。目視だけの確認で納品しません
 - **窓口は私一人**。営業とエンジニアの伝言ゲームがないので、仕様の相談がそのまま実装に届きます
+
+## 最近の取り組み（2026年）
+
+| 公開物 | 何の役に立つか |
+|--------|----------------|
+| [eccube-upgrade-mcp](https://github.com/kurozumi/eccube-upgrade-mcp) | EC-CUBEのメジャーバージョンアップを補助するMCPサーバー。移行の見落としを機械的に洗い出します |
+| [eccube-docker](https://github.com/kurozumi/eccube-docker) | VPSでもAWSでも同じ手順でEC-CUBE 4をインストール〜公開できるDocker環境。環境差分による「動かない」をなくします |
+| [eccube-plugin-test](https://github.com/kurozumi/eccube-plugin-test) / [eccube-plugin-phpstan](https://github.com/kurozumi/eccube-plugin-phpstan) | プラグインのテスト・静的解析をGitHub Actionsで自動化 |
+| [会員ランク管理アドオン](https://github.com/kurozumi/eccube-plugin-customer-group-rank) | 購入金額・回数に応じて会員グループを自動で切り替える。グループ別の送料無料条件つき |
+| [ChatGPT for EC-CUBE 4.3](https://github.com/kurozumi/eccube-plugin-chatgpt) | 管理画面から商品説明や新着情報の文章を生成。商品登録の手間を削ります |
 
 ## 著作・発信
 
@@ -33,14 +45,14 @@ EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプ
 | [EC-CUBEではじめるBtoB ECサイト構築ガイド](https://amzn.asia/d/0czU3EGs) | Amazon Kindle |
 | [さくらVPS + EC-CUBE 4.3 本番環境構築ガイド](https://zenn.dev/kurozumi/books/eccube-sakura-vps-deploy) | Zenn |
 
-技術記事は [Zenn](https://zenn.dev/kurozumi) に書いています。
+技術記事は [Zenn](https://zenn.dev/kurozumi) に86本書いています。EC-CUBEの実装でつまずきやすい箇所を中心に。
 
 ## 技術スタック
 
 - **バックエンド**: PHP 8.x / Symfony 6.x / EC-CUBE 4.x / Doctrine ORM
 - **フロントエンド**: Twig / JavaScript / CSS
 - **インフラ**: Docker / Linux / さくらVPS / AWS（基礎レベル）
-- **ツール**: Git / GitHub / Composer / PHPUnit / Claude Code
+- **ツール**: Git / GitHub Actions / Composer / PHPUnit / PHPStan / Claude Code
 
 ---
 
