@@ -1,10 +1,10 @@
 # Akira Kurozumi
 
-**EC-CUBEプラグイン開発・ECサイトカスタマイズ** | フルリモート・全国対応
+**EC-CUBEプラグイン開発・ECサイトカスタマイズ** | [EC-CUBE公式シルバーパートナー](https://www.ec-cube.net/integrate/partner/partner.php?partner_id=1399) | フルリモート・全国対応
 
 EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプラグイン**を開発・販売し、EC-CUBE本体のコントリビューターとしても活動しています。
 
-📩 **ご相談・お見積りは無料です** → info@a-zumi.net
+📩 **ご相談・お見積りは無料です** → info@a-zumi.net ／ 🌐 [あずみ.net（公式サイト）](https://a-zumi.net/)
 
 ---
 
@@ -21,6 +21,7 @@ EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプ
 
 ## 選んでいただける理由
 
+- **[EC-CUBE公式のインテグレートパートナー（シルバー）](https://www.ec-cube.net/integrate/partner/partner.php?partner_id=1399)**です。EC-CUBE公式サイトのパートナー紹介に「あずみ.net」として掲載されています
 - **EC-CUBE本体のコントリビューター**です。バグに当たったとき、回避策で逃げずに原因まで追えます。必要なら本体への修正提案までやります
 - **[EC-CUBE バグバウンティ2022](https://www.ec-cube.net/lp/ver/42/bugbounty2022/) 3位入賞**。EC-CUBE本体の脆弱性を探して報告した経験があるので、会員情報や管理画面まわりの改修でも、穴を作り込まない前提で書きます
 - **190以上のプラグインを販売・保守**しています。作って納めて終わり、ではなく、EC-CUBEのバージョンが上がった後まで面倒を見てきた経験があります
@@ -32,8 +33,17 @@ EC-CUBEの開発歴は10年以上。オーナーズストアで**190以上のプ
 
 | 公開物 | 何の役に立つか |
 |--------|----------------|
-| [eccube-docker](https://github.com/kurozumi/eccube-docker) | VPSでもAWSでも同じ手順でEC-CUBE 4をインストール〜公開できるDocker環境。環境差分による「動かない」をなくします |
+| [EC-CUBE 運用キット](https://eccube-kit.a-zumi.net/)（[GitHub](https://github.com/kurozumi/eccube-kit)） | EC-CUBE 4のインストール・バージョンアップ・セキュリティパッチ・サーバー移転を1コマンドにするDocker環境。上げて壊れたら何も変えずに止まるので、脆弱性の告知が出たその日にパッチを当てられます。毎日のバックアップ、Redis・複数サーバー構成にも対応 |
 | [eccube-plugin-test](https://github.com/kurozumi/eccube-plugin-test) / [eccube-plugin-phpstan](https://github.com/kurozumi/eccube-plugin-phpstan) | プラグインのテスト・静的解析をGitHub Actionsで自動化 |
+
+## EC-CUBE以外の開発実績
+
+初期費用0円のWEBシステム開発（後述）でお作りするのは、こういうものです。
+
+| サービス | 内容 |
+|----------|------|
+| [Vibe Coding](https://claude-vibe-coding-coral.vercel.app) | 子ども向けのAIプログラミング学習ツール。チャットでAIと相談しながらゲームやアプリを作る。教室の講師が生徒のAI利用をリアルタイムで確認でき、保護者用の画面もあります |
+| [コエトバ](https://koetoba.vercel.app) | 会員登録なしで使える匿名の音声掲示板。ブラウザだけでライブ配信と視聴ができます |
 
 ## 著作・発信
 
@@ -71,6 +81,8 @@ AIを使った開発で工数を圧縮できるようになったので、**WEB�
 要件が固まっていない段階でも構いません。「こういうことをやりたい」だけいただければ、実現方法と概算をお返しします。
 
 - **メール**: info@a-zumi.net
+- **LINE**: [友だち追加して相談](https://lin.ee/nNuBILZ)
+- **Webサイト**: [あずみ.net](https://a-zumi.net/)
 - **稼働形態**: 業務委託（フルリモート）
 - **対応エリア**: 全国
 
@@ -84,7 +96,7 @@ Zennの記事が役に立ったら、バッジをいただけると励みにな�
 
 ## About (English)
 
-EC-CUBE and Symfony developer based in Tokyo, with 10+ years of experience in EC site development and plugin engineering. Contributor to EC-CUBE core and Symfony. 190+ plugins published on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Available for remote contract work nationwide.
+EC-CUBE and Symfony developer based in Tokyo, with 10+ years of experience in EC site development and plugin engineering. Official EC-CUBE Integrate Partner (Silver). Contributor to EC-CUBE core and Symfony. 190+ plugins published on the EC-CUBE Owners Store. Ranked 3rd in the EC-CUBE Bug Bounty Program 2022. Maintainer of [EC-CUBE Ops Kit](https://eccube-kit.a-zumi.net/), a Docker toolkit that turns EC-CUBE 4 upgrades and security patching into a single command. Available for remote contract work nationwide.
 
 Also offering zero-upfront-cost web system development powered by AI-assisted coding, under a revenue-share model (monthly operation fee plus a portion of sales).
 
